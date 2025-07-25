@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "nombre": "Arroz 1kg",
+    "precio": 1.20,
+    "categoria": "Granos",
+    "imagen": "https://i.postimg.cc/d1cwfHyg/image.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Leche Entera 1L",
+    "precio": 0.95,
+    "categoria": "Lácteos",
+    "imagen": "https://i.postimg.cc/sxVyjMKc/image.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Huevos (12 unidades)",
+    "precio": 2.40,
+    "categoria": "Proteínas",
+    "imagen": "https://i.postimg.cc/ht7Fq8cn/carton-eggs-vector-illustration-600nw-2227674113.jpgs"
+  },
+  {
+    "id": 4,
+    "nombre": "Pan de molde",
+    "precio": 1.50,
+    "categoria": "Panadería",
+    "imagen": "https://i.postimg.cc/Kzfw5JrP/depositphotos-43957721-stock-illustration-white-bread.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Manzanas (1kg)",
+    "precio": 1.80,
+    "categoria": "Frutas",
+    "imagen": "https://i.postimg.cc/V6Z46TWV/image.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Pechuga de pollo (1kg)",
+    "precio": 4.90,
+    "categoria": "Carnes",
+    "imagen": "https://i.postimg.cc/J4vgKyJ2/image.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Papel higiénico (4 rollos)",
+    "precio": 1.80,
+    "categoria": "Higiene",
+    "imagen": "https://i.postimg.cc/Y9vD1M0H/image-66386e3289384a5fa537a6991bd6cae1.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Detergente líquido 1L",
+    "precio": 2.85,
+    "categoria": "Limpieza",
+    "imagen": "https://i.postimg.cc/W1s95MzS/image.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Café molido 250g",
+    "precio": 3.50,
+    "categoria": "Bebidas",
+    "imagen": "https://i.postimg.cc/tCptb9b4/image.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Galletas de chocolate",
+    "precio": 1.75,
+    "categoria": "Snacks",
+    "imagen": "https://i.postimg.cc/bv7kBhL8/image.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Zanahorias (1kg)",
+    "precio": 1.10,
+    "categoria": "Verduras",
+    "imagen": "https://i.postimg.cc/kMFKfLS3/image.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Agua embotellada 1.5L",
+    "precio": 0.85,
+    "categoria": "Bebidas",
+    "imagen": "https://i.postimg.cc/NfdTwTbd/image.jpg"
+  }
+]

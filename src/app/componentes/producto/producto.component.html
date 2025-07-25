@@ -1,0 +1,56 @@
+<div class="productos-grid">
+  <div
+    *ngFor="let producto of productos"
+    class="producto-card"
+    (click)="verProducto(producto)"
+  >
+    <img
+      class="producto-imagen"
+      [src]="producto.imagen"
+      alt="Imagen de {{ producto.nombre }}"
+    />
+  </div>
+</div>
+<!-- Modal -->
+<div
+  *ngIf="productoSeleccionado"
+  tabindex="-1"
+  class="modal-backdrop"
+  (click)="cerrarModal()"
+>
+  <div
+    class="modal-container"
+    (click)="$event.stopPropagation()"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-title"
+  >
+    <header class="modal-header">
+      <h3 id="modal-title">{{ productoSeleccionado.nombre }}</h3>
+      <button
+        type="button"
+        aria-label="Cerrar modal"
+        class="modal-close-btn"
+        (click)="cerrarModal()"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </header>
+    <section class="modal-body">
+      <p><strong>Categoría:</strong> {{ productoSeleccionado.categoria }}</p>
+      <p><strong>Precio:</strong> ${{ productoSeleccionado.precio }}</p>
+    </section>
+    <footer class="modal-footer">
+      <button (click)="cerrarModal()">Cerrar</button>
+    </footer>
+  </div>
+</div>
